@@ -1,0 +1,104 @@
+{
+  "generated_at": "2026-06-13T20:03:02.303632+00:00",
+  "summary": {
+    "total": 9,
+    "succeeded": 8,
+    "failed": 1
+  },
+  "weather_data": [
+    {
+      "city": "Miami, FL",
+      "latitude": 25.7617,
+      "longitude": -80.1918,
+      "temperature_c": 31.2,
+      "humidity_pct": 82,
+      "wind_speed_kmh": 18.0,
+      "weather_code": 80,
+      "weather_desc": "Slight showers",
+      "observation_time": "2026-06-13T20:00"
+    },
+    {
+      "city": "New York, NY",
+      "latitude": 40.7128,
+      "longitude": -74.006,
+      "temperature_c": 22.5,
+      "humidity_pct": 65,
+      "wind_speed_kmh": 24.0,
+      "weather_code": 2,
+      "weather_desc": "Partly cloudy",
+      "observation_time": "2026-06-13T20:00"
+    },
+    {
+      "city": "Los Angeles, CA",
+      "latitude": 34.0522,
+      "longitude": -118.2437,
+      "temperature_c": 26.8,
+      "humidity_pct": 55,
+      "wind_speed_kmh": 10.5,
+      "weather_code": 0,
+      "weather_desc": "Clear sky",
+      "observation_time": "2026-06-13T20:00"
+    },
+    {
+      "city": "Chicago, IL",
+      "latitude": 41.8781,
+      "longitude": -87.6298,
+      "temperature_c": 19.3,
+      "humidity_pct": 70,
+      "wind_speed_kmh": 32.0,
+      "weather_code": 3,
+      "weather_desc": "Overcast",
+      "observation_time": "2026-06-13T20:00"
+    },
+    {
+      "city": "London, UK",
+      "latitude": 51.5074,
+      "longitude": -0.1278,
+      "temperature_c": 15.1,
+      "humidity_pct": 78,
+      "wind_speed_kmh": 20.0,
+      "weather_code": 61,
+      "weather_desc": "Slight rain",
+      "observation_time": "2026-06-13T20:00"
+    },
+    {
+      "city": "Tokyo, Japan",
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "temperature_c": 28.7,
+      "humidity_pct": 75,
+      "wind_speed_kmh": 15.0,
+      "weather_code": 51,
+      "weather_desc": "Light drizzle",
+      "observation_time": "2026-06-13T20:00"
+    },
+    {
+      "city": "Sydney, Australia",
+      "latitude": -33.8688,
+      "longitude": 151.2093,
+      "temperature_c": 13.4,
+      "humidity_pct": 60,
+      "wind_speed_kmh": 22.0,
+      "weather_code": 2,
+      "weather_desc": "Partly cloudy",
+      "observation_time": "2026-06-13T20:00"
+    },
+    {
+      "city": "Dubai, UAE",
+      "latitude": 25.2048,
+      "longitude": 55.2708,
+      "temperature_c": 38.9,
+      "humidity_pct": 45,
+      "wind_speed_kmh": 8.0,
+      "weather_code": 0,
+      "weather_desc": "Clear sky",
+      "observation_time": "2026-06-13T20:00"
+    }
+  ],
+  "excluded": [
+    {
+      "city": "InvalidCity_BadCoords",
+      "reason": "Invalid response: HTTP 400: Bad coordinates"
+    }
+  ]
+}

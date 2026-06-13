@@ -1,0 +1,21 @@
+# Create this file manually or paste the contents:
+cat > .gitignore << 'EOF'
+# Virtual environment
+venv/
+.venv/
+
+# Secrets — never commit real keys
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Log and output files (optional — you may want to keep the sample ones)
+weather_aggregator.log
+
+# OS files
+.DS_Store
+Thumbs.db
+EOF
