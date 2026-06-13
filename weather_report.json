@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-13T20:03:02.303632+00:00",
+  "generated_at": "2026-06-13T20:30:50.742618+00:00",
   "summary": {
     "total": 9,
     "succeeded": 8,
@@ -10,95 +10,95 @@
       "city": "Miami, FL",
       "latitude": 25.7617,
       "longitude": -80.1918,
-      "temperature_c": 31.2,
-      "humidity_pct": 82,
-      "wind_speed_kmh": 18.0,
-      "weather_code": 80,
-      "weather_desc": "Slight showers",
-      "observation_time": "2026-06-13T20:00"
+      "temperature_c": 31.1,
+      "humidity_pct": 56,
+      "wind_speed_kmh": 16.3,
+      "weather_code": 0,
+      "weather_desc": "Clear sky",
+      "observation_time": "2026-06-13T16:30"
     },
     {
       "city": "New York, NY",
       "latitude": 40.7128,
       "longitude": -74.006,
-      "temperature_c": 22.5,
-      "humidity_pct": 65,
-      "wind_speed_kmh": 24.0,
-      "weather_code": 2,
-      "weather_desc": "Partly cloudy",
-      "observation_time": "2026-06-13T20:00"
+      "temperature_c": 31.1,
+      "humidity_pct": 30,
+      "wind_speed_kmh": 12.6,
+      "weather_code": 0,
+      "weather_desc": "Clear sky",
+      "observation_time": "2026-06-13T16:30"
     },
     {
       "city": "Los Angeles, CA",
       "latitude": 34.0522,
       "longitude": -118.2437,
-      "temperature_c": 26.8,
-      "humidity_pct": 55,
-      "wind_speed_kmh": 10.5,
+      "temperature_c": 28.4,
+      "humidity_pct": 51,
+      "wind_speed_kmh": 12.6,
       "weather_code": 0,
       "weather_desc": "Clear sky",
-      "observation_time": "2026-06-13T20:00"
+      "observation_time": "2026-06-13T13:30"
     },
     {
       "city": "Chicago, IL",
       "latitude": 41.8781,
       "longitude": -87.6298,
-      "temperature_c": 19.3,
-      "humidity_pct": 70,
-      "wind_speed_kmh": 32.0,
+      "temperature_c": 28.7,
+      "humidity_pct": 47,
+      "wind_speed_kmh": 26.3,
       "weather_code": 3,
       "weather_desc": "Overcast",
-      "observation_time": "2026-06-13T20:00"
+      "observation_time": "2026-06-13T15:30"
     },
     {
       "city": "London, UK",
       "latitude": 51.5074,
       "longitude": -0.1278,
-      "temperature_c": 15.1,
-      "humidity_pct": 78,
-      "wind_speed_kmh": 20.0,
-      "weather_code": 61,
-      "weather_desc": "Slight rain",
-      "observation_time": "2026-06-13T20:00"
+      "temperature_c": 18.4,
+      "humidity_pct": 45,
+      "wind_speed_kmh": 17.3,
+      "weather_code": 1,
+      "weather_desc": "Mainly clear",
+      "observation_time": "2026-06-13T21:30"
     },
     {
       "city": "Tokyo, Japan",
       "latitude": 35.6762,
       "longitude": 139.6503,
-      "temperature_c": 28.7,
-      "humidity_pct": 75,
-      "wind_speed_kmh": 15.0,
-      "weather_code": 51,
-      "weather_desc": "Light drizzle",
-      "observation_time": "2026-06-13T20:00"
+      "temperature_c": 18.6,
+      "humidity_pct": 96,
+      "wind_speed_kmh": 1.5,
+      "weather_code": 3,
+      "weather_desc": "Overcast",
+      "observation_time": "2026-06-14T05:30"
     },
     {
       "city": "Sydney, Australia",
       "latitude": -33.8688,
       "longitude": 151.2093,
-      "temperature_c": 13.4,
-      "humidity_pct": 60,
-      "wind_speed_kmh": 22.0,
-      "weather_code": 2,
-      "weather_desc": "Partly cloudy",
-      "observation_time": "2026-06-13T20:00"
+      "temperature_c": 15.4,
+      "humidity_pct": 80,
+      "wind_speed_kmh": 11.7,
+      "weather_code": 3,
+      "weather_desc": "Overcast",
+      "observation_time": "2026-06-14T06:30"
     },
     {
       "city": "Dubai, UAE",
       "latitude": 25.2048,
       "longitude": 55.2708,
-      "temperature_c": 38.9,
-      "humidity_pct": 45,
-      "wind_speed_kmh": 8.0,
-      "weather_code": 0,
-      "weather_desc": "Clear sky",
-      "observation_time": "2026-06-13T20:00"
+      "temperature_c": 29.4,
+      "humidity_pct": 92,
+      "wind_speed_kmh": 4.5,
+      "weather_code": 95,
+      "weather_desc": "Thunderstorm",
+      "observation_time": "2026-06-14T00:30"
     }
   ],
   "excluded": [
     {
       "city": "InvalidCity_BadCoords",
-      "reason": "Invalid response: HTTP 400: Bad coordinates"
+      "reason": "Invalid response: HTTP 400: {\"reason\":\"Latitude must be in range of -90 to 90°. Given: 9999.0.\",\"error\":true}"
     }
   ]
 }

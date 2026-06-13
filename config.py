@@ -7,7 +7,9 @@ weather_aggregator.py never contains magic numbers.
 """
 
 import os
+# pyrefly: ignore [missing-import]
 from dotenv import load_dotenv
+from typing import Optional
 
 load_dotenv()  # Load .env variables before anything else reads os.environ
 
@@ -20,7 +22,7 @@ WEATHER_API_BASE_URL: str = os.getenv(
 )
 
 # Future key-required providers: set WEATHER_API_KEY in .env
-WEATHER_API_KEY: str | None = os.getenv("WEATHER_API_KEY")
+WEATHER_API_KEY: Optional[str] = os.getenv("WEATHER_API_KEY")
 
 # Open-Meteo query parameters that never change between cities
 WEATHER_PARAMS_TEMPLATE: dict = {

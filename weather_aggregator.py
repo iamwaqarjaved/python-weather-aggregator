@@ -21,6 +21,7 @@ import json
 import logging
 import time
 from datetime import datetime, timezone
+from typing import Optional, Tuple   # add Tuple here if not present
 
 import requests
 
@@ -95,8 +96,7 @@ def fetch_weather(lat: float, lon: float) -> dict:
 # ---------------------------------------------------------------------------
 # Safe wrapper — returns None + failure record on any error
 # ---------------------------------------------------------------------------
-
-def fetch_weather_safe(city: dict) -> tuple[dict | None, dict | None]:
+def fetch_weather_safe(city: dict) -> Tuple[Optional[dict], Optional[dict]]:
     """
     Wraps fetch_weather with full error handling.
 
@@ -162,8 +162,7 @@ def fetch_weather_safe(city: dict) -> tuple[dict | None, dict | None]:
 # ---------------------------------------------------------------------------
 # Aggregator — fetches all cities, never crashes
 # ---------------------------------------------------------------------------
-
-def aggregate_weather(cities: list[dict]) -> tuple[list[dict], list[dict]]:
+def aggregate_weather(cities: list[dict]) -> Tuple[list, list]:
     """
     Fetch weather for every city in the list.
 

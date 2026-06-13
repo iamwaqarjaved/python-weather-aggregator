@@ -37,7 +37,8 @@ logger = logging.getLogger(__name__)
 # Helpers
 # ---------------------------------------------------------------------------
 
-def _mock_response(status_code: int = 200, json_data: dict | None = None,
+# Change this (line 40):
+def _mock_response(status_code: int = 200, json_data=None,
                    text: str = "", raise_json: bool = False) -> MagicMock:
     """Build a fake requests.Response."""
     mock = MagicMock()
